@@ -20,3 +20,8 @@ let someNumber = 7
 let stringNumber = String(someNumber)
 console.log(stringNumber)
 console.log(typeof stringNumber)
+
+let str1 = "Hello"
+let str2 = " Atif"
+let str3 = str1 + str2
+console.log(str3);
