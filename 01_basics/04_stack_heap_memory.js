@@ -1,4 +1,6 @@
 // ======== Stack =======
+// used by premitive dataTypes
+// is me copy milti hai humy or hum copy me changing krty hain
 
 let youTube = "alfaz_i_ishq"
 let newYotTube = youTube
@@ -9,6 +11,9 @@ console.log(youTube);
 console.log(newYotTube);
 
 // ======== Heap ========
+// used by non premitive dataTypes
+// is me humy original reference milta hai or hum osi me changing krty hain... 
+
 let student1 = {
     name:"Atif Yar",
     age: 21,
