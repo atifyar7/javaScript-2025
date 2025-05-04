@@ -14,10 +14,20 @@ myHeros.push("Shaktiman")
 myArray2.pop()
 // console.log(myArray2);
 
-myArray.unshift("Atif")
-console.log(myArray);
-myArray.shift()
-console.log(myArray);
-console.log(myHeros.includes("Superman"))
-console.log(myHeros.indexOf("Superman"))
+// myArray.unshift("Atif")
+// console.log(myArray);
+// myArray.shift()
+// console.log(myArray);
+// console.log(myHeros.includes("Superman"))
+// console.log(myHeros.indexOf("Superman"))
+
+const newArray = [1,2,3,4,5,6]
+const nextArray = newArray.slice(1,3)
+console.log("A", newArray);
+console.log(nextArray);
+const spliceArray = newArray.splice(1,3)
+console.log("B", newArray);
+console.log(spliceArray);
+
+
 
